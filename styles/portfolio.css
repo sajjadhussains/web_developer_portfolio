@@ -83,3 +83,39 @@ nav>ul>li>a{
 .text-banner{
     margin-bottom: 80px;
 }
+
+/* about section */
+.about-section{
+    background-color:  rgb(255, 248, 243);
+    margin-left: 150px;
+    margin-right: 120px;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+.about-section>h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.about-section>p{
+    color: rgb(117, 117, 117);
+    font-size:18px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.about-info{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 80px;
+    margin-top: 30px;
+    padding-bottom: 80px;
+    justify-content: space-between;
+}
+.about-info>div p{
+    margin-bottom: 5px;
+}
+.about-info>div{
+    margin-right: 20px;
+}
