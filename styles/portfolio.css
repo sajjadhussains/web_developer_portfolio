@@ -6,16 +6,21 @@ body{
     font-family: 'Lato',sans-serif;
     font-family: 'Open Sans',sans-serif;
 }
+
 header{
     padding-top: 30px;
     background-color:  rgb(255, 248, 243);
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 600px;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 226px;
-    margin-right: 220px;
+    margin-left: 150px;
+    margin-right: 100px;
 }
 .nav-title{
     font-size: 45px;
@@ -44,4 +49,37 @@ nav>ul>li>a{
     font-size: 20px;
     color: rgb(71, 71, 71);
     font-weight: 400;
+}
+
+/* banner design */
+.banner{
+    margin-left: 150px;
+    /* margin-top: 49px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner img{
+    width: 400px;
+    height: 450px;
+    margin-top: 20px;
+    margin-right: 50px;
+    
+}
+.banner-title{
+    color: rgb(71, 71, 71);
+    font-size: 35px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.banner-subtitle{
+    font-size: 60px;
+    font-weight: 700;
+}
+.banner-info{
+    color:rgb(117, 117, 117);
+    margin-bottom: 20px;
+}
+.text-banner{
+    margin-bottom: 80px;
 }
